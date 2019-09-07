@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 
+ * tiles_es.xml
+ *
+ * Copyright (C) 2018 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ -->
+
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+      
+<tiles-definitions>
+
+		<definition name="oblemic/list" extends="master.page">	
+		<put-attribute name="title" value="Lista de oblemics" />
+		<put-attribute name="body" value="/views/oblemic/list.jsp" />
+	</definition>
+	
+	<definition name="oblemic/customer/edit" extends="master.page">	
+		<put-attribute name="title" value="Editar oblemic" />
+		<put-attribute name="body" value="/views/oblemic/edit.jsp" />
+	</definition>
+	
+	<definition name="oblemic/show" extends="master.page">	
+		<put-attribute name="title" value="Mostrar oblemic" />
+		<put-attribute name="body" value="/views/oblemic/show.jsp" />
+	</definition>
+	
+</tiles-definitions>
